@@ -18,3 +18,7 @@ This is a simple and responsive **CV Submission Form** built using only **HTML**
 
 ## 📂 Project Structure
 
+cv-form/
+├── index.html # Main HTML file containing the form
+├── style.css # Styling for the form
+└── README.md # Project documentation (this file)
