@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CV Submission Form</h1>
+      <form>
+        <h2>Personal Information</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="2" required></textarea>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required />
+
+        <h2>Education</h2>
+        <label for="education">Education Details:</label>
+        <textarea id="education" name="education" rows="4" required></textarea>
+
+        <h2>Work Experience</h2>
+        <label for="experience">Work Experience:</label>
+        <textarea
+          id="experience"
+          name="experience"
+          rows="4"
+          required
+        ></textarea>
+
+        <h2>Skills</h2>
+        <label for="skills">Your Skills:</label>
+        <textarea id="skills" name="skills" rows="3" required></textarea>
+
+        <h2>Languages</h2>
+        <label for="languages">Languages Known:</label>
+        <input type="text" id="languages" name="languages" required />
+
+        <h2>Hobbies</h2>
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" name="hobbies" value="Reading" />
+            Reading</label
+          >
+          <label
+            ><input type="checkbox" name="hobbies" value="Traveling" />
+            Traveling</label
+          >
+          <label
+            ><input type="checkbox" name="hobbies" value="Gaming" />
+            Gaming</label
+          >
+          <label
+            ><input type="checkbox" name="hobbies" value="Music" /> Music</label
+          >
+          <label
+            ><input type="checkbox" name="hobbies" value="Drawing" />
+            Drawing</label
+          >
+          <label
+            ><input type="checkbox" name="hobbies" value="Sports" />
+            Sports</label
+          >
+        </div>
+
+        <h2>References</h2>
+        <label for="references">References:</label>
+        <textarea id="references" name="references" rows="3"></textarea>
+
+        <div class="buttons">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
