@@ -129,3 +129,17 @@ button:hover {
   opacity: 0.95;
   transform: translateY(-1px);
 }
+
+.education-group {
+  background-color: #fefefe;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.education-group h3 {
+  margin-top: 15px;
+  color: #007bff;
+  font-size: 18px;
+}
