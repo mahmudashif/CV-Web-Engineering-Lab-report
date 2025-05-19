@@ -22,3 +22,63 @@ cv-form/
 ├── index.html # Main HTML file containing the form
 ├── style.css # Styling for the form
 └── README.md # Project documentation (this file)
+
+
+
+---
+
+## 🖥️ Live Preview
+
+> Open `index.html` in any modern web browser to preview the form.
+
+---
+
+## 📸 Screenshots
+
+*(Optional: You can add screenshots of the form interface here)*
+
+---
+
+## 📦 Technologies Used
+
+- **HTML5** – Markup language used to structure the form
+- **CSS3** – Used for layout, colors, responsiveness, and form design
+
+---
+
+## ✍️ How to Use
+
+1. Clone or download this repository.
+2. Open the `index.html` file in your browser.
+3. Fill in the form details.
+4. Click **Submit** or **Reset** as needed.
+
+---
+
+## 📌 Sections Covered
+
+- Personal Information
+- Address
+- Date of Birth
+- Upload Photo
+- Education (SSC, HSC, Honors, Masters)
+- Work Experience
+- Skills
+- Languages
+- Hobbies (checkboxes)
+- References
+- Submit and Reset buttons
+
+---
+
+## 🧾 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Developed by **[Your Name Here]**  
+Feel free to reach out or suggest improvements!
+
