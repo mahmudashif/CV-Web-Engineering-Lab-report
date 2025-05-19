@@ -10,7 +10,9 @@
     <div class="container">
       <h1>CV Submission Form</h1>
       <form>
+        <!-- Personal Info -->
         <h2>Personal Information</h2>
+
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" required />
 
@@ -20,8 +22,27 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required />
 
-        <label for="address">Address:</label>
-        <textarea id="address" name="address" rows="2" required></textarea>
+        <!-- Address -->
+        <h2>Address</h2>
+        <div class="address-group">
+          <label for="house">House No.:</label>
+          <input type="text" id="house" name="house" required />
+
+          <label for="street">Street:</label>
+          <input type="text" id="street" name="street" required />
+
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required />
+
+          <label for="state">State/Province:</label>
+          <input type="text" id="state" name="state" required />
+
+          <label for="zip">Zip/Postal Code:</label>
+          <input type="text" id="zip" name="zip" required />
+
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="country" required />
+        </div>
 
         <label for="dob">Date of Birth:</label>
         <input type="date" id="dob" name="dob" required />
@@ -29,10 +50,12 @@
         <label for="photo">Upload Photo:</label>
         <input type="file" id="photo" name="photo" accept="image/*" required />
 
+        <!-- Education -->
         <h2>Education</h2>
         <label for="education">Education Details:</label>
         <textarea id="education" name="education" rows="4" required></textarea>
 
+        <!-- Work Experience -->
         <h2>Work Experience</h2>
         <label for="experience">Work Experience:</label>
         <textarea
@@ -42,14 +65,17 @@
           required
         ></textarea>
 
+        <!-- Skills -->
         <h2>Skills</h2>
         <label for="skills">Your Skills:</label>
         <textarea id="skills" name="skills" rows="3" required></textarea>
 
+        <!-- Languages -->
         <h2>Languages</h2>
         <label for="languages">Languages Known:</label>
         <input type="text" id="languages" name="languages" required />
 
+        <!-- Hobbies -->
         <h2>Hobbies</h2>
         <div class="checkbox-group">
           <label
@@ -77,10 +103,12 @@
           >
         </div>
 
+        <!-- References -->
         <h2>References</h2>
         <label for="references">References:</label>
         <textarea id="references" name="references" rows="3"></textarea>
 
+        <!-- Buttons -->
         <div class="buttons">
           <button type="submit">Submit</button>
           <button type="reset">Reset</button>
